@@ -1,0 +1,32 @@
+.text-container{
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+}
+.main-container{
+    margin-top: 100px;
+}
+.team-image{
+    width: 80px;
+    height: 100px;
+    background-color: #731212;
+    
+}
+
+h2{
+    margin-top: 50px;
+}
+
+#christian, #jonas {
+    float: left;
+    margin-right: 40px;
+}
+
+#jan, #julian {
+    float: right;
+    margin-left: 30px;
+}

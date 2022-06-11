@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../css/shared-styles.css" />
+  <link rel="stylesheet" href="../css/menu-button.css" />
+  <link rel="stylesheet" href="../css/products-styles.css" />
+  <script type="text/javascript" src="../script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="sidenav">
+    <div class="image-container">
+      <div onclick="toggleClass()" class="btn not-active" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="menu-popup" id="popup">
+    <ul class="popup-text">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./team.html">Team</a></li>
+      <li>
+        <a href="./sorting-machine.html">
+          <i class="arrow right"></i> Exmakina</a
+        >
+      </li>
+      <li>
+        <a href="./transport-system.html">
+          <i class="arrow right"></i> Ex.Traditor</a
+        >
+      </li>
+      <li><a href="">Firmenziele</a></li>
+    </ul>
+  </div>
+  <div class="main-container">
+    <div class="product-display">
+      <a href="./sorting-machine.html">
+        <section class="exmakina-section">
+          <h1>Exmakina</h1>
+          <img
+            src="../assets/sortier.jpeg"
+            class="product-pictures"
+            id="exmakina"
+          />
+          <div class="price-container"><h2>89,99 €</h2></div>
+        </section>
+      </a>
+      <a href="./transport-system.html">
+        <section class="ex_traditor-section">
+          <h1>Ex.Traditor</h1>
+          <img
+            src="../assets/transport.jpeg"
+            class="product-pictures"
+            id="ex_traditor"
+          />
+          <div class="price-container"><h2>89,99 €</h2></div>
+        </section>
+      </a>
+    </div>
+  </div>
+</body>

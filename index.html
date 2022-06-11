@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="./css/index-styles.css" />
+  <link rel="stylesheet" href="./css/shared-styles.css" />
+  <link rel="stylesheet" href="./css/menu-button.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="sidenav">
+    <div class="image-container">
+      <div onclick="toggleClass()" class="btn not-active" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="menu-popup" id="popup">
+    <ul class="popup-text">
+        <li><a href="./html/team.html">Team</a></li>
+        <li><a href="./html/products.html">Produkte</a></li>
+        <li><a href="./html/team.html"> <i class="arrow right"></i> Exmakina</a></li>
+        <li><a href="./html/team.html"> <i class="arrow right"></i> Ex.Traditor</a></li>
+        <li><a href="./html/team.html">Firmenziele</a></li>
+    </ul>
+  </div>
+
+  <div class="main-container">
+    <div class="logo-container">
+      <img src="./assets/Logo.png" alt="EXMA Logo" />
+    </div>
+    <h1 class="welcome-message">Willkommen auf der Website der Firma Exma.</h1>
+    <section>
+      <table class="information-table">
+        <tr>
+          <td class="information-table-heading"><h2>Anschrift:</h2></td>
+          <td>
+            <p>Exma e.V.</p>
+            <p>Hieberstraße 14</p>
+            <p>87435 Kempten</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="information-table-heading"><h2>Tel.:</h2></td>
+          <td>
+            <p>+49 1520 7280322</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="information-table-heading"><h2>E-Mail:</h2></td>
+          <td>
+            <p><a class="e-mail-link">EXMA-Kempten@outlook.de</a></p>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>

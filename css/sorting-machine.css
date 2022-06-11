@@ -1,0 +1,40 @@
+.heading-container{
+    height: 100px;
+    width: 40%;
+    background-color: #731212;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-left: 5%;
+}
+
+.heading-container h1{
+    color:white;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+.video-container{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 70px;
+}
+
+.price-container{
+    float:right;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+.link-container{
+    clear: both;
+    cursor: pointer;
+}

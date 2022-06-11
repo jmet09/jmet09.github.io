@@ -1,0 +1,154 @@
+::-moz-selection {
+    background: #731212;
+    color: #fff;
+  }
+  ::selection {
+    background: #731212;
+    color: #fff;
+  }
+
+  
+body {
+    font-family: "Jost", sans-serif !important;
+  }
+
+  
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  a:link {
+    color:black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:black;
+  }
+  
+  /* selected link */
+  a:active {
+    color:black;
+  }
+  
+  
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    background-color: #a6a6a6;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+  }
+
+  .main-container {
+    margin-top: 160px;
+    width: 85%;
+    float: right;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 70%;
+    background-color: #c63131;
+    height: 200px;
+    margin-left: 14%;
+    border: 5px solid #731212;
+  }
+  
+  
+@keyframes example {
+    0% {
+      background: linear-gradient(
+        180deg,
+        rgba(115, 18, 18, 1) 0%,
+        rgba(255, 255, 255, 0.8) 25%
+      );
+    }
+    25% {
+      background: linear-gradient(
+        180deg,
+        rgba(115, 18, 18, 1) 0%,
+        rgba(255, 255, 255, 0.8) 50%
+      );;
+    }
+    50% {
+      background: linear-gradient(
+        180deg,
+        rgba(115, 18, 18, 1) 0%,
+        rgba(255, 255, 255, 0.8) 75%
+      );;
+    }
+    100% {
+      background: linear-gradient(
+        180deg,
+        rgba(115, 18, 18, 1) 0%,
+        rgba(255, 255, 255, 0.8) 100%
+      );;
+    }
+  }
+  
+  .menu-popup {
+    width: 100%;
+    min-width: 1920px;
+    height: 100%;
+    min-height: 1080px;
+    display: none;
+    background: rgb(115, 18, 18);
+    background: linear-gradient(
+      180deg,
+      rgba(115, 18, 18, 1) 0%,
+      rgba(115, 18, 18, 0.8) 90%
+    );
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation-name: example;
+    animation-duration: 0.20s;
+  }
+  
+  .popup-text{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 25%;
+    height: 50%;
+    list-style: none;
+    color: white;
+    font-size: 64px;
+  }
+  
+  .popup-text a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .popup-text li {
+    margin-top: 50px;
+  }
+  
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -10px;
+    vertical-align: middle;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
