@@ -1,3 +1,6 @@
+.main-container{
+    margin-top: 70px;
+}
 .heading-container{
     height: 100px;
     width: 40%;
@@ -28,13 +31,18 @@ section{
 
 .price-container{
     float:right;
-    width: 60%;
+    width: 50%;
     margin-right: 5%;
     margin-top: 250px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .link-container{
     clear: both;
     cursor: pointer;
+    margin-left: 200px;
+}
+
+h3{
+    text-align: left;
 }
