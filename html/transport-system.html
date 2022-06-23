@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="text/javascript" src="script.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="../css/shared-styles.css" />
+  <link rel="stylesheet" href="../css/menu-button.css" />
+  <link rel="stylesheet" href="../css/products-styles.css" />
+  <link rel="stylesheet" href="../css/sorting-machine.css" />
+  <script type="text/javascript" src="../script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-    <div class="sidenav">
-        <div class="image-container">
-        </div>
+  <div class="sidenav">
+    <div class="image-container">
+      <div onclick="toggleClass()" class="btn not-active" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-
-    <div class="main-container">
-
+    <div class="sidenav-logo-container">
+      <h1 style="color: white;">EXMA</h1>
     </div>
+  </div>
+  <div class="menu-popup" id="popup">
+    <ul class="popup-text">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./team.html">Team</a></li>
+      <li><a href="./products.html">Produkte</a></li>
+      <li>
+        <a href="./sorting-machine.html">
+          <i class="arrow right"></i> EXMA.china</a
+        >
+      </li>
+      <li>
+        <a href="./transport-system.html">
+          <i class="arrow right"></i> EX.Traditor</a
+        >
+      </li>
+      <li><a href="./company-goals.html">Firmenziele</a></li>
+    </ul>
+  </div>
+  <div class="main-container">
+    <div class="heading-container"><h1>EX.Traditor</h1></div>
+    <section>
+      <p>
+        Unser Produktportfolio wurde seit diesem Jahr durch das Transportsystem 
+        EX.Traditor erweitert. Der Transport ist einer der größten Bereiche in dem 
+        sehr viel Potential zur Verbesserung der Nachhaltigkeit steckt.
+        Der EX.Traditor ist unsere Interpretation einer Lösung für dieses Problem. Sehr 
+        stolz ist das Team Exma. auf die moderne Line-Tracking-Technologie durch 
+        diese es uns möglich ist, verschiedenste Transportwege zu realisieren und 
+        je nach Bedarf modular zu erweitern. Das Ziel ist es, dieses System 
+        für alle möglichen Anwendungsbereiche kompatibel zu machen und damit eine
+        Transportmöglichkeit zu entwickeln, die genauso nachhaltig wie auch effizient ist.
+        Zudem hat der EX.Traditor ein großen Auffangbehälter, mit dem alle möglichen 
+        festen Materialien transportiert und wieder ausgeworfen werden können. 
 
+    </p>
+    </section>
+    <div class="video-container">
+        <video width="500" height="320" controls autoplay  onloadstart="this.volume=0.2">
+            <source src="../assets/transport.mp4" type="video/mp4"></source>
+        </video>
+    </div>
+    <div class="price-container">
+        <h2>Preis: 89,99 €</h2>
+    </div>
+    <h3><a class="link-container" href="../assets/Flyer EXMA_.pdf" target="_blank">Link zum Produktflyer</a></h3>
+  </div>
 </body>
